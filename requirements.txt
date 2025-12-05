@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+PyMySQL
+yoyo-migrations
+python-jose
+cryptography
+python-multipart
+passlib[bcrypt]
