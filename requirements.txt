@@ -8,3 +8,4 @@ python-jose
 cryptography
 python-multipart
 passlib[bcrypt]
+argon2-cffi

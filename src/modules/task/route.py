@@ -35,11 +35,3 @@ def task_delete(task_id: int, db: Session = Depends(get_db), current_user=Depend
 
 
 
-# @router.put("/{task_id}", response_model=TaskOut)
-# def task_update(task_id: int, schema: TaskCreateSchema, db: Session = Depends(get_db), current_user=Depends(get_current_user)):
-#     return update_task(db, task_id, schema, current_user)
-
-# @router.delete("/{task_id}")
-# def task_delete(task_id: int, db: Session = Depends(get_db), current_user=Depends(get_current_user)):
-#     return delete_task(db, task_id, current_user)
-
